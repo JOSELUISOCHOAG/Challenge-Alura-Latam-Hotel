@@ -1,51 +1,76 @@
 package com.alura.latam.hotel.modelo;
 
-import java.time.LocalDate;
+import java.sql.Date;
 
 public class Reserva {
 
-	private Integer reserva_id;
-	private LocalDate reserva_entrada;
-	private LocalDate reserva_salida;
-	private Double reserva_valor;
-	private String reserva_fomaPago;
+	private Integer res_id;	
+	private Cliente res_cliente;
+	private Date res_entrada;
+	private Date res_salida;
+	private Double res_valor;
+	private String res_fomaPago;
 	
 	public Reserva() {
 	}
 	
-	public Reserva(LocalDate reserva_entrada, LocalDate reserva_salida, String reserva_fomaPago) {
-		this.reserva_entrada = reserva_entrada;
-		this.reserva_salida = reserva_salida;
-		this.reserva_fomaPago = reserva_fomaPago;
-	}
-	public LocalDate getReserva_entrada() {
-		return reserva_entrada;
-	}
-	public void setReserva_entrada(LocalDate reserva_entrada) {
-		this.reserva_entrada = reserva_entrada;
-	}
-	public LocalDate getReserva_salida() {
-		return reserva_salida;
-	}
-	public void setReserva_salida(LocalDate reserva_salida) {
-		this.reserva_salida = reserva_salida;
-	}
-	public Double getReserva_valor() {
-		return reserva_valor;
-	}
-	public void setReserva_valor(Double reserva_valor) {
-		this.reserva_valor = reserva_valor;
-	}
-	public String getReserva_fomaPago() {
-		return reserva_fomaPago;
-	}
-	public void setReserva_fomaPago(String reserva_fomaPago) {
-		this.reserva_fomaPago = reserva_fomaPago;
-	}
-	public Integer getReserva_id() {
-		return reserva_id;
+	public Reserva(Date res_entrada, Date res_salida,Double res_valor, String res_fomaPago) {
+		this.res_entrada = res_entrada;
+		this.res_salida = res_salida;
+		this.res_valor = res_valor;
+		this.res_fomaPago = res_fomaPago;
 	}
 	
+	public Reserva(Cliente res_cliente,Date res_entrada, Date res_salida,Double res_valor, String res_fomaPago) {
+		this.res_cliente = res_cliente;
+		this.res_entrada = res_entrada;
+		this.res_salida = res_salida;
+		this.res_valor = res_valor;
+		this.res_fomaPago = res_fomaPago;
+	}
 	
+	public Date getRes_entrada() {
+		return res_entrada;
+	}
+	public void setRes_entrada(Date res_entrada) {
+		this.res_entrada = res_entrada;
+	}
+	public Date getRes_salida() {
+		return res_salida;
+	}
+	public void setRes_salida(Date res_salida) {
+		this.res_salida = res_salida;
+	}
+	public Double getRes_valor() {
+		return res_valor;
+	}
+	public void setRes_valor(Double res_valor) {
+		this.res_valor = res_valor;
+	}
+
+	public String getRes_fomaPago() {
+		return res_fomaPago;
+	}
+	public void setRes_fomaPago(String res_fomaPago) {
+		this.res_fomaPago = res_fomaPago;
+	}
+	
+
+	public Integer getRes_id() {
+		return res_id;
+	}
+
+	public void setRes_id(Integer res_id) {
+		this.res_id = res_id;
+	}
+
+	public Cliente getRes_cliente() {
+		return res_cliente;
+	}
+
+	public void setRes_cliente(Cliente res_cliente) {
+		this.res_cliente = res_cliente;
+	}
+
 	
 }

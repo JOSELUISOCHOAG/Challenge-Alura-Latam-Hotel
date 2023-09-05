@@ -37,27 +37,27 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/Users/User/Documents/Curso-Alura-Oracle/Java_Jdvc/Alura-Hotel-Challenge/Alura-Hotel/lib/jcalendar-1.4.jar">
+	<classpathentry kind="lib" path="D:/Users/User/Documents/Curso-Alura-Oracle/Java_JDBC/Alura-Hotel-Challenge/Alura-Hotel/lib/jcalendar-1.4.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/Users/User/Documents/Curso-Alura-Oracle/Java_Jdvc/Alura-Hotel-Challenge/Alura-Hotel/lib/jgoodies-common-1.2.0.jar">
+	<classpathentry kind="lib" path="D:/Users/User/Documents/Curso-Alura-Oracle/Java_JDBC/Alura-Hotel-Challenge/Alura-Hotel/lib/jgoodies-common-1.2.0.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/Users/User/Documents/Curso-Alura-Oracle/Java_Jdvc/Alura-Hotel-Challenge/Alura-Hotel/lib/jgoodies-looks-2.4.1.jar">
+	<classpathentry kind="lib" path="D:/Users/User/Documents/Curso-Alura-Oracle/Java_JDBC/Alura-Hotel-Challenge/Alura-Hotel/lib/jgoodies-looks-2.4.1.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/Users/User/Documents/Curso-Alura-Oracle/Java_Jdvc/Alura-Hotel-Challenge/Alura-Hotel/lib/junit-4.6.jar">
+	<classpathentry kind="lib" path="D:/Users/User/Documents/Curso-Alura-Oracle/Java_JDBC/Alura-Hotel-Challenge/Alura-Hotel/lib/junit-4.6.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/Users/User/Documents/Curso-Alura-Oracle/Java_Jdvc/Alura-Hotel-Challenge/Alura-Hotel/lib/mysql-connector-j-8.0.32.jar">
+	<classpathentry kind="lib" path="D:/Users/User/Documents/Curso-Alura-Oracle/Java_JDBC/Alura-Hotel-Challenge/Alura-Hotel/lib/mysql-connector-j-8.0.32.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>

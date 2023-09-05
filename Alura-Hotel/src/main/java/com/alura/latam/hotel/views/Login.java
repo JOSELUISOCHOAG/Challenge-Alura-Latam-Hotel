@@ -123,7 +123,7 @@ public class Login extends JFrame {
 			}
 		});
 		txtUsuario.setFont(new Font("Roboto", Font.PLAIN, 16));
-		txtUsuario.setText("Ingrese su nombre de usuario");
+		txtUsuario.setText("admin");
 		txtUsuario.setBorder(javax.swing.BorderFactory.createEmptyBorder());
 		txtUsuario.setForeground(SystemColor.activeCaptionBorder);
 		txtUsuario.setBounds(65, 256, 324, 32);
@@ -147,7 +147,7 @@ public class Login extends JFrame {
 		panel.add(separator_1);
 		
 		txtContrasena = new JPasswordField();
-		txtContrasena.setText("********");
+		txtContrasena.setText("admin");
 		txtContrasena.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent e) {

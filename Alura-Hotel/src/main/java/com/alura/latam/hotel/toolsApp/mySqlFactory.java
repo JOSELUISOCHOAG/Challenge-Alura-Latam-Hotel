@@ -6,12 +6,32 @@ import java.sql.SQLException;
 
 public class mySqlFactory {
 
-	 public Connection recuperaConexion() throws SQLException {
-	        return DriverManager.getConnection(
-	                "jdbc:mysql://localhost:3307/control_de_stock?useTimeZone=true&serverTimeZone=UTC",
-	                "root",
-	                "Soporte1");
-	    }
+	// private Connection conDB;
 
+	public Connection conectar() throws SQLException {
+		Connection conDB = DriverManager.getConnection(
+				"jdbc:mysql://localhost:3307/alura_hotel?useTimeZone=true&serverTimeZone=UTC"
+				, "root"
+				, "Soporte1");
+		// this.conDB = setConexion();
+		System.out.println("se abrio la conexion..!");
+		return conDB;
+
+//			System.out.println("no se logro conectar");
+
+	}
+
+	public Connection setConexion() {
+		try {
+			Connection conDB = DriverManager.getConnection(
+					"jdbc:mysql://localhost:3307/alura_hotel?useTimeZone=true&serverTimeZone=UTC", "root", "Soporte1");
+			System.out.println("se abrio la conexion..!");
+			return conDB;
+		} catch (SQLException e) {
+			System.out.println("no se logro conectar");
+			throw new RuntimeException(e);
+		}
+
+	}
 
 }

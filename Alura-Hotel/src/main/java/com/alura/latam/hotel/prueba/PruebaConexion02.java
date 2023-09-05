@@ -10,7 +10,7 @@ public class PruebaConexion02 {
 
 	public static void main(String[] args) throws SQLException {
 	
-		Connection conDb = new mySqlFactory().recuperaConexion();
+		Connection conDb = new mySqlFactory().setConexion();
 		
         System.out.println("Cerrando la conexión");
 
